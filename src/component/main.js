@@ -4,8 +4,8 @@ function Main(){
     return(
         <div className="main">
             <h1 className="title">Find your dream job</h1>
-            <p>Limitless Opportunities</p>
-            <button>Explore Jobs</button>
+            <p className="para">Limitless Opportunities</p>
+            <button className="btn">Explore Jobs</button>
         </div>
     );
 }

@@ -1,5 +1,8 @@
+/* Himanshu Shekhar */
+
 *{
     margin: 0;
+    box-sizing: border-box;
     color: white;
 }
 
@@ -10,10 +13,36 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
-/* .title{
-    color: white;
-    text-align: center;
-    font-size: 5rem;
-} */
+.title{
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right,#14dddd,#6d35b3);
+    /* background-size: 100%; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.para{
+    font-size: 3.3rem;
+    margin-bottom: 2rem;
+    background-color: #ffac81;
+    background-image: linear-gradient(to right, #087ee1,#05e8ba);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn{
+    color: #fff;
+    background-color: #ffac81;
+    background-image: linear-gradient(to right, #5090c5,#790db8);
+    text-decoration: none;
+    font-size: 2.8rem;
+    padding: 10px;
+    border-radius: 10px;
+}
