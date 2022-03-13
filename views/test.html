@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="country">Select Country:</label>
+      <select name="country" id="country" onchange="findCateg();">
+        <option value="gb">Great Britain</option>
+        <option value="at">Austria</option>
+        <option value="au">Australia</option>
+        <option value="br">Brazil</option>
+        <option value="ca">Canada</option>
+        <option value="de">Denmark</option>
+        <option value="fr">France</option>
+        <option selected value="in">India</option>
+        <option value="it">Italy</option>
+        <option value="nl">Netherlands</option>
+        <option value="nz">New Zeland</option>
+        <option value="pl">Poland</option>
+        <option value="ru">Russia</option>
+        <option value="sg">Singapore</option>
+        <option value="us">USA</option>
+        <option value="za">South Africa</option>
+      </select>
+      <label for="category">Select Category:</label>
+      <select name="category" id="category">
+        <option value="0" selected>None</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+    <!-- <label for="state">Select State:</label>
+    <select name="state" id="state">
+      <option value="0" selected>None</option>
+    </select> -->
+    <script src="/test.js"></script>
+  </body>
+</html>
