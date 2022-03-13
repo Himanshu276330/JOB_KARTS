@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: black;
+    height: 10vh;
+    color: white;
+}
