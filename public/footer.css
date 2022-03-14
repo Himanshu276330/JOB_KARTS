@@ -1,0 +1,90 @@
+.footerp2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right,#000000, #161616, #000000);
+    padding: 1vw;
+    color: white;
+    width: 100vw;
+    font-weight: 500;
+}
+
+.social{
+    width: 2vw;
+}
+
+.item{
+    text-align: center;
+}
+
+.name{
+    font-size: 1vw;
+}
+
+.logoname{
+    display: inline-block;
+    margin-left:8vw;
+    font-size: 2vw;
+    color: rgb(0, 204, 255);
+}
+
+.others{
+   display: inline-block; 
+}
+
+.inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 8vw;
+}
+
+.item{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 1.5vw;
+}
+
+.footerp1{
+    background-image: linear-gradient(to right,#000000, #161616, #000000);
+    padding: 1vw;
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 1.5vw;
+    padding-bottom: 1.75vw;
+}
+
+.sec{
+    display: inline-block;
+    width: 20vw;
+}
+
+.header{
+    font-size: 1.8vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+
+.footerpage{
+    font-size: 1.15vw;
+    margin-top: 0.5vw;
+}
+
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
