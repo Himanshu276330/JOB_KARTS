@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./component/header";
-import Main from "./component/main"
+import Main from "./component/main";
+import Search from "./component/search";
 import footer from "./component/header";
 
 function App() {

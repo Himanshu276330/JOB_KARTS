@@ -1,0 +1,55 @@
+#all{
+    background: linear-gradient(to right, #161616, #000000);
+    color: white;
+}
+
+#box{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 5vw;
+}
+
+.head{
+    font-size: 2.5vw;
+    margin: 2vw;
+    margin-top: 0px;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#title, #location{
+    width: 30vw;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    text-align: center;
+    border: 0px;
+    font-size: 1.2vw;
+
+}
+
+#title:focus , #location:focus{
+    outline: none;
+}
+
+.item2{
+    font-size: 1.2vw;
+}
+
+.default{
+    font-size: 1.2vw;
+}
+
+#search{
+    font-size: 1.5vw;
+    color: white;
+    padding: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 0.4vw;
+    background-image: linear-gradient(to right,aqua,blue);
+}
