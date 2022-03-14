@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form>
+    <form onsubmit="return false;">
       <label for="country">Select Country:</label>
       <select name="country" id="country" onchange="findCateg();">
         <option value="gb">Great Britain</option>
@@ -27,11 +27,23 @@
         <option value="us">USA</option>
         <option value="za">South Africa</option>
       </select>
-      <label for="category">Select Category:</label>
-      <select name="category" id="category">
+      <!-- <label for="category">Select Category:</label> -->
+      <!-- <select name="category" id="category">
         <option value="0" selected>None</option>
-      </select>
-      <button type="submit">Search</button>
+      </select> -->
+      <label for="searchCateg">Search Categories:</label>
+      <input
+        type="text"
+        name="searchCateg"
+        id="searchCateg"
+        list="categList"
+        autocomplete="off"
+      />
+      <datalist id="categList">
+        <option value="None"></option>
+      </datalist>
+
+      <button type="submit" onclick="searchJobs();">Search</button>
     </form>
     <!-- <label for="state">Select State:</label>
     <select name="state" id="state">
