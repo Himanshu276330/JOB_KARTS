@@ -6,4 +6,7 @@
     background-color: black;
     height: 10vh;
     color: white;
+    width: 100vw;
+    position:fixed;
+    top:0;
 }
